@@ -1457,7 +1457,7 @@ void ProcessDialogEvent()
 				shTo.BaseHP    = makeint((sti(shTo.BaseHP) - sti(shTo.Bonus_HP)) * 1.2 + sti(shTo.Bonus_HP));
 			}
 		}
-        shTo.Tuning.HP = true;
+		shTo.Tuning.HP = true;
 		//shTo.BaseHP = sti(shTo.HP); этого не должно существовать
 		ProcessHullRepair(pchar, 100.0); // у нпс при апгрейде есть, здесь тоже должно быть
 
